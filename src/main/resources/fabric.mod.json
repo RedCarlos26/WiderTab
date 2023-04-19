@@ -8,9 +8,9 @@
     "RedCarlos26"
   ],
   "contact": {
-    "homepage": "",
-    "sources": "",
-    "issues": ""
+    "homepage": "https://github.com/RedCarlos26/WiderTab",
+    "sources": "https://github.com/RedCarlos26/WiderTab",
+    "issues": "https://github.com/RedCarlos26/WiderTab/issues"
   },
   "license": "MIT",
   "icon": "assets/widertab/icon.png",
