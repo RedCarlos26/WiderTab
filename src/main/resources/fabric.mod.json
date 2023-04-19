@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "widertab",
-  "name": "Wider Tab",
+  "name": "WiderTab",
   "version": "${version}",
   "description": "Extends the tablist to fit more players.",
   "authors": [
