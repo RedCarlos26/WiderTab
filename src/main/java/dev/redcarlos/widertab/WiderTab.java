@@ -13,11 +13,6 @@ import net.fabricmc.api.ClientModInitializer;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-/**
- * @author RedCarlos26
- * @version 1.0.0
- * @since 1.0.0
- */
 public class WiderTab implements ClientModInitializer {
     public static final String NAMESPACE = "widertab";
     private static WiderTab INSTANCE;
@@ -29,23 +24,14 @@ public class WiderTab implements ClientModInitializer {
         this.log("Initializing WiderTab...");
     }
 
-    /**
-     * Prints a message to the terminal.
-     */
     public void log(String info) {
         this.logger.info("[WiderTab] " + info);
     }
 
-    /**
-     * Prints a warning message to the terminal.
-     */
     public void warn(String info) {
         this.logger.warn("[WiderTab] " + info);
     }
 
-    /**
-     * Returns the WiderTab mod instance.
-     */
     public static WiderTab get() {
         return INSTANCE;
     }
