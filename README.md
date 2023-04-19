@@ -8,7 +8,14 @@
 ![Version](https://img.shields.io/github/v/tag/RedCarlos26/wider-tab?label=version&style=flat-square)
 <!-- modrinth_exclude.end -->
 
+## What is this mod?
+
 A mod that extends the tablist to fit more players.
+
+## Where can I download the mod?
+
+Head over to [WiderTabs' Modrinth Page](https://modrinth.com/mod/widertab) to download the mod.
+
 
 <!-- modrinth_exclude.start -->
 
