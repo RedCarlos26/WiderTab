@@ -1,9 +1,9 @@
 {
   "required": true,
-  "package": "dev.redcarlos.widertab.mixin",
+  "package": "dev.redcarlos26.widertab.mixin",
   "compatibilityLevel": "JAVA_17",
   "client": [
-    "dev.redcarlos26.widertab.mixin.PlayerListHudMixin"
+    "PlayerListHudMixin"
   ],
   "injectors": {
     "defaultRequire": 1
