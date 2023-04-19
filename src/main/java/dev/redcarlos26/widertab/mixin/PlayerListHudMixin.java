@@ -7,7 +7,7 @@
  * see the LICENSE file.
  */
 
-package dev.redcarlos.widertab.mixin;
+package dev.redcarlos26.widertab.mixin;
 
 import net.minecraft.client.gui.hud.PlayerListHud;
 import org.spongepowered.asm.mixin.Mixin;

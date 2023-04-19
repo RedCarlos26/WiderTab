@@ -7,7 +7,7 @@
  * see the LICENSE file.
  */
 
-package dev.redcarlos.widertab;
+package dev.redcarlos26.widertab;
 
 import net.fabricmc.api.ClientModInitializer;
 import org.apache.logging.log4j.LogManager;

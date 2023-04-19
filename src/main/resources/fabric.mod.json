@@ -17,7 +17,7 @@
   "environment": "client",
   "entrypoints": {
     "client": [
-      "dev.redcarlos.widertab.WiderTab"
+      "dev.redcarlos26.widertab.WiderTab"
     ],
     "modmenu": []
   },
@@ -30,8 +30,5 @@
     "fabric": ">=0.76.0+1.19.4",
     "minecraft": "1.19.4",
     "java": ">=17"
-  },
-  "recommends": {
-    "modmenu": ">=5.0.2"
   }
 }
