@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "widertab",
+  "name": "Wider Tab",
+  "version": "${version}",
+  "description": "Extends the tablist to fit more players.",
+  "authors": [
+    "RedCarlos26"
+  ],
+  "contact": {
+    "homepage": "",
+    "sources": "",
+    "issues": ""
+  },
+  "license": "MIT",
+  "icon": "assets/widertab/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "dev.redcarlos.widertab.WiderTab"
+    ],
+    "modmenu": []
+  },
+  "accessWidener": "widertab.accesswidener",
+  "mixins": [
+    "widertab.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.11",
+    "fabric": ">=0.76.0+1.19.4",
+    "minecraft": "1.19.4",
+    "java": ">=17"
+  },
+  "recommends": {
+    "modmenu": ">=5.0.2"
+  }
+}
