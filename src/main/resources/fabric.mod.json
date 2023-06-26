@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "id": "widertab",
   "name": "WiderTab",
-  "version": "1.0.0+1.19.4",
+  "version": "1.0.0+1.20+",
   "description": "Extends the tablist to fit more players.",
   "authors": [
     "RedCarlos26"
@@ -26,9 +26,9 @@
     "widertab.mixins.json"
   ],
   "depends": {
-    "fabricloader": ">=0.14.11",
-    "fabric": ">=0.76.0+1.19.4",
-    "minecraft": "1.19.4",
+    "fabricloader": ">=0.14.21",
+    "fabric": ">=0.84.0+1.20.1",
+    "minecraft": [ "1.20", "1.20.1" ],
     "java": ">=17"
   }
 }

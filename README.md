@@ -3,9 +3,9 @@
 <!-- modrinth_exclude.start -->
 ![Java 17](https://img.shields.io/badge/language-Java%2017-9B599A.svg?style=flat-square) <!-- modrinth_exclude.end -->
 [![GitHub license](https://img.shields.io/github/license/RedCarlos26/wider-tab?style=flat-square)](https://github.com/RedCarlos26/WiderTab/blob/main/LICENCE)
-![Environment: Client](https://img.shields.io/badge/environment-client-1976d2?style=flat-square)
+![Environment: Client](https://img.shields.io/badge/environment-Client-1976d2?style=flat-square)
 [![Mod loader: Fabric]][fabric] <!-- modrinth_exclude.start -->
-![Version](https://img.shields.io/github/v/tag/RedCarlos26/wider-tab?label=version&style=flat-square)
+![Version](https://img.shields.io/badge/version-1.1.0+1.20+-blue?style=flat-square)
 <!-- modrinth_exclude.end -->
 
 ## What is this mod?
