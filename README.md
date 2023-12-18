@@ -16,7 +16,7 @@ This mod removes the vanilla limit of number of shown players to make you able t
 
 ### Where can I download the mod?
 
-Head over to [WiderTabs' Modrinth Page](https://modrinth.com/mod/widertab) to download the mod.
+Head over to [WiderTabs' Modrinth Page](https://modrinth.com/mod/wider-tab) to download the mod.
 
 
 <!-- modrinth_exclude.start -->
