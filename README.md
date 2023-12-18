@@ -1,18 +1,20 @@
-# WiderTab
+# Wider Tab
 
-<!-- modrinth_exclude.start -->
-![Java 17](https://img.shields.io/badge/language-Java%2017-9B599A.svg?style=flat-square) <!-- modrinth_exclude.end -->
 [![GitHub license](https://img.shields.io/github/license/RedCarlos26/wider-tab?style=flat-square)](https://github.com/RedCarlos26/WiderTab/blob/main/LICENCE)
 ![Environment: Client](https://img.shields.io/badge/environment-Client-1976d2?style=flat-square)
 [![Mod loader: Fabric]][fabric] <!-- modrinth_exclude.start -->
 ![Version](https://img.shields.io/badge/version-1.0.0+1.20.4-blue?style=flat-square)
 <!-- modrinth_exclude.end -->
 
-## What is this mod?
 
+### What is this mod?
 A mod that extends the tablist to fit more players.
 
-## Where can I download the mod?
+### How does it work?
+
+This mod removes the vanilla limit of number of shown players to make you able to see everyone online at once.
+
+### Where can I download the mod?
 
 Head over to [WiderTabs' Modrinth Page](https://modrinth.com/mod/widertab) to download the mod.
 
