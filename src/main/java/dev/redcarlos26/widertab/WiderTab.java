@@ -1,5 +1,5 @@
 /*
- * Copyright © 2023 RedCarlos26
+ * Copyright © 2024 RedCarlos26
  *
  * This file is part of WiderTab.
  *

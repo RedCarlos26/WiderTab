@@ -21,7 +21,6 @@
     ],
     "modmenu": []
   },
-  "accessWidener": "widertab.accesswidener",
   "mixins": [
     "widertab.mixins.json"
   ],
