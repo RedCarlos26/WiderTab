@@ -3,7 +3,7 @@
 [![GitHub license](https://img.shields.io/github/license/RedCarlos26/wider-tab?style=flat-square)](https://github.com/RedCarlos26/WiderTab/blob/main/LICENCE)
 ![Environment: Client](https://img.shields.io/badge/environment-Client-1976d2?style=flat-square)
 [![Mod loader: Fabric]][fabric] <!-- modrinth_exclude.start -->
-![Version](https://img.shields.io/badge/version-1.0.0+1.20.4-blue?style=flat-square)
+![Version](https://img.shields.io/badge/version-1.0.0+1.20.5-blue?style=flat-square)
 <!-- modrinth_exclude.end -->
 
 

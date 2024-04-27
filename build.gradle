@@ -1,8 +1,6 @@
 plugins {
-    id 'fabric-loom' version '1.5-SNAPSHOT'
+    id 'fabric-loom' version '1.6-SNAPSHOT'
 }
-
-sourceCompatibility = targetCompatibility = JavaVersion.VERSION_17
 
 archivesBaseName = project.archives_base_name
 version = project.mod_version
@@ -20,9 +18,23 @@ dependencies {
 }
 
 processResources {
+    def propertyMap = [
+        "version"          : project.version,
+        "minecraft_version": project.minecraft_version,
+        "loader_version"   : project.loader_version
+    ]
+
+    inputs.properties(propertyMap)
     filesMatching("fabric.mod.json") {
-        expand "version": project.version, "mc_version": project.minecraft_version
+        expand(propertyMap)
     }
+}
+
+java {
+    sourceCompatibility = JavaVersion.VERSION_21
+    targetCompatibility = JavaVersion.VERSION_21
+
+    withSourcesJar()
 }
 
 tasks.withType(JavaCompile).configureEach {

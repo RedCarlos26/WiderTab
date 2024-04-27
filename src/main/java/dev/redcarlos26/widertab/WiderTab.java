@@ -25,11 +25,11 @@ public class WiderTab implements ClientModInitializer {
     }
 
     public void log(String info) {
-        this.logger.info("[WiderTab] " + info);
+        this.logger.info("[WiderTab] {}", info);
     }
 
     public void warn(String info) {
-        this.logger.warn("[WiderTab] " + info);
+        this.logger.warn("[WiderTab] {}", info);
     }
 
     public static WiderTab get() {
