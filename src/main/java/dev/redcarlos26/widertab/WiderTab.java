@@ -21,15 +21,15 @@ public class WiderTab implements ClientModInitializer {
     @Override
     public void onInitializeClient() {
         INSTANCE = this;
-        this.log("Initializing WiderTab...");
+        this.log("Initializing Wider Tab...");
     }
 
     public void log(String info) {
-        this.logger.info("[WiderTab] {}", info);
+        this.logger.info("[Wider Tab] {}", info);
     }
 
     public void warn(String info) {
-        this.logger.warn("[WiderTab] {}", info);
+        this.logger.warn("[Wider Tab] {}", info);
     }
 
     public static WiderTab get() {
