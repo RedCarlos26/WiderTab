@@ -5,11 +5,11 @@
 [![Mod loader: Fabric]][fabric]
 
 ### What is this mod?
-A mod that extends the tablist to fit more players.
+A mod that extends the multiplayer player list (tablist) to fit more players.
 
 ### How does it work?
 
-This mod removes the vanilla limit of number of shown players to make you able to see everyone online at once.
+This mod essentially removes the vanilla limit for players shown in a server's player list, to easily see everyone online at once.
 
 ### Where can I download the mod?
 
