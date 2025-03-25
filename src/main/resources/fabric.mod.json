@@ -2,8 +2,8 @@
   "schemaVersion": 1,
   "id": "widertab",
   "name": "WiderTab",
-  "version": "1.0.0+1.21.4",
-  "description": "Extends the tablist to fit more players.",
+  "version": "1.0.0+1.21.5",
+  "description": "Extends the player list (tablist) to fit more players.",
   "authors": [
     "RedCarlos26"
   ],
