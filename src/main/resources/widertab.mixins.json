@@ -3,7 +3,7 @@
   "package": "dev.redcarlos26.widertab.mixin",
   "compatibilityLevel": "JAVA_21",
   "client": [
-    "PlayerListHudMixin"
+    "PlayerTabOverlayMixin"
   ],
   "injectors": {
     "defaultRequire": 1

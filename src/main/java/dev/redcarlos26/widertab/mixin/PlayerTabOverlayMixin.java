@@ -9,14 +9,14 @@
 
 package dev.redcarlos26.widertab.mixin;
 
-import net.minecraft.client.gui.hud.PlayerListHud;
+import net.minecraft.client.gui.components.PlayerTabOverlay;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.Constant;
 import org.spongepowered.asm.mixin.injection.ModifyConstant;
 
-@Mixin(PlayerListHud.class)
-public class PlayerListHudMixin {
-    @ModifyConstant(constant = @Constant(longValue = 80L), method = "collectPlayerEntries")
+@Mixin(PlayerTabOverlay.class)
+public class PlayerTabOverlayMixin {
+    @ModifyConstant(constant = @Constant(longValue = 80L), method = "getPlayerInfos")
     private long modifyCount(long count) {
         return 180;
     }
