@@ -11,6 +11,19 @@ A mod that extends the multiplayer player list (tablist) to fit more players.
 
 This mod essentially removes the vanilla limit for players shown in a server's player list, to easily see everyone online at once.
 
+### Can I configure it?
+
+Yes. With [Mod Menu](https://modrinth.com/mod/modmenu) installed the settings are available from the mod list; otherwise edit `config/widertab.json`, which is created on first launch:
+
+```json
+{
+  "max_players": 180,
+  "max_rows_per_column": 20
+}
+```
+
+`max_players` is how many players the list may show (vanilla shows 80), and `max_rows_per_column` is how many rows a column holds before a new one starts (vanilla uses 20). Raising the second value makes the list grow downwards instead of sideways, which stays readable on busy servers.
+
 ### Where can I download the mod?
 
 Head over to [WiderTabs' Modrinth Page](https://modrinth.com/mod/wider-tab) to download the mod.

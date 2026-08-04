@@ -11,11 +11,20 @@ base {
 repositories {
     mavenCentral()
     mavenLocal()
+    maven("https://maven.terraformersmc.com/releases/") {
+        name = "Terraformers"
+    }
 }
 
 dependencies {
     minecraft("com.mojang:minecraft:${project.property("minecraft_version")}")
     implementation("net.fabricmc:fabric-loader:${project.property("loader_version")}")
+
+    // Compile only: Mod Menu is optional at runtime, the integration class is
+    // never loaded when it is absent.
+    compileOnly("com.terraformersmc:modmenu:${project.property("modmenu_version")}") {
+        isTransitive = false
+    }
 }
 
 tasks {
