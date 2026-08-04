@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "id": "widertab",
   "name": "WiderTab",
-  "version": "1.0.0+26.1",
+  "version": "1.1.0+26.2",
   "description": "Extends the player list (tablist) to fit more players.",
   "authors": [
     "RedCarlos26"
@@ -19,7 +19,9 @@
     "client": [
       "dev.redcarlos26.widertab.WiderTab"
     ],
-    "modmenu": []
+    "modmenu": [
+      "dev.redcarlos26.widertab.gui.ModMenuIntegration"
+    ]
   },
   "mixins": [
     "widertab.mixins.json"
@@ -28,5 +30,8 @@
     "java": ">=25",
     "minecraft": "${minecraft_version}",
     "fabricloader": ">=${loader_version}"
+  },
+  "suggests": {
+    "modmenu": ">=20.0.0"
   }
 }

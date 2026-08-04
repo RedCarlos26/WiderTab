@@ -1,0 +1,7 @@
+{
+  "widertab.config.title": "Настройки WiderTab",
+  "widertab.option.max_players": "Игроков в списке",
+  "widertab.option.max_players.tooltip": "Сколько игроков одновременно показывать в табе. В ванили — 80.",
+  "widertab.option.max_rows_per_column": "Строк в колонке",
+  "widertab.option.max_rows_per_column.tooltip": "Сколько игроков помещается в одну колонку до начала новой. Чем больше значение, тем выше список и тем меньше он растягивается вширь. В ванили — 20."
+}

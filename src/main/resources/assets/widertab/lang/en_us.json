@@ -1,0 +1,7 @@
+{
+  "widertab.config.title": "WiderTab Settings",
+  "widertab.option.max_players": "Players in tab list",
+  "widertab.option.max_players.tooltip": "How many players the tab list may show at once. Vanilla shows 80.",
+  "widertab.option.max_rows_per_column": "Rows per column",
+  "widertab.option.max_rows_per_column.tooltip": "How many players fit in one column before a new column starts. Higher values make the list taller instead of wider, which stays readable on busy servers. Vanilla uses 20."
+}
